@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monastir Propre - Sauvons nos plages</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#" class="logo">
+            <i class="fas fa-leaf"></i> Monastir Propre
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#crise">La Crise</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+            <li><a href="#sorties">Sorties Nettoyage</a></li>
+            <li><a href="#partenaires">Partenaires</a></li>
+            <li><a href="#avis">Votre Avis</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero" id="accueil">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <span class="hero-badge">Initiative Citoyenne - ESPRIM Monastir</span>
+        <h1>Sauvons les Plages<br>de <span class="highlight">Monastir</span></h1>
+        <p class="hero-subtitle">3 crises environnementales. 3 solutions citoyennes. 1 seul objectif : agir maintenant.</p>
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-number">2.8M</span>
+                <span class="stat-label">tonnes de dechets/an</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">90%</span>
+                <span class="stat-label">enfouis sans tri</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">28</span>
+                <span class="stat-label">plages interdites</span>
+            </div>
+        </div>
+        <div class="hero-buttons">
+            <a href="#sorties" class="btn btn-primary">Participer au Nettoyage</a>
+            <a href="#avis" class="btn btn-outline">Donner mon Avis</a>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</section>
+
+<!-- CRISIS SECTION -->
+<section class="section crisis-section" id="crise">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Constat Alarmant</span>
+            <h2>La Realite de nos Cotes</h2>
+            <p>De Monastir a toute la Tunisie, la crise environnementale est une urgence qui nous concerne tous.</p>
+        </div>
+
+        <div class="crisis-grid">
+            <div class="crisis-card">
+                <div class="crisis-icon"><i class="fas fa-trash"></i></div>
+                <h3>Crise des Dechets</h3>
+                <ul>
+                    <li>Dechets accumules dans les rues de Monastir</li>
+                    <li>Decharges sauvages pres du golfe</li>
+                    <li>290 decharges anarchiques en Tunisie</li>
+                    <li>Seulement 5-8% des dechets recycles</li>
+                </ul>
+                <div class="crisis-stat">
+                    <span>4 morts a Moknine</span> - Inondations du 20 janvier 2026
+                </div>
+            </div>
+
+            <div class="crisis-card">
+                <div class="crisis-icon"><i class="fas fa-water"></i></div>
+                <h3>Eau Polluee & Rare</h3>
+                <ul>
+                    <li>Station d'epuration saturee a 400%</li>
+                    <li>400 stations de lavage illegales</li>
+                    <li>Mort massive de poissons dans le golfe</li>
+                    <li>350 m3/hab/an = penurie absolue</li>
+                </ul>
+                <div class="crisis-stat">
+                    <span>Le "Triangle de la Mort"</span> - Lamta-Sayada-Kesiba
+                </div>
+            </div>
+
+            <div class="crisis-card">
+                <div class="crisis-icon"><i class="fas fa-bolt"></i></div>
+                <h3>Energie & Transport</h3>
+                <ul>
+                    <li>97% du mix energetique = gaz naturel</li>
+                    <li>52% des voitures ont +15 ans</li>
+                    <li>7 milliards DT/an de subventions</li>
+                    <li>PM2.5 a Sfax : 4.6x norme OMS</li>
+                </ul>
+                <div class="crisis-stat">
+                    <span>59% d'importation</span> - Dependance energetique
+                </div>
+            </div>
+        </div>
+
+        <div class="crisis-quote">
+            <blockquote>
+                "Nous sommes la derniere generation a pouvoir agir. Nous sommes aussi la premiere a en subir les consequences."
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+<!-- GALLERY SECTION -->
+<section class="section gallery-section" id="galerie">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Temoignages Visuels</span>
+            <h2>La Situation en Images</h2>
+            <p>Ces photos temoignent de l'urgence environnementale a Monastir et en Tunisie. La realite est choquante.</p>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item large">
+                <div class="gallery-placeholder" style="background: linear-gradient(135deg, #1a5276, #2e86c1);">
+                    <i class="fas fa-image"></i>
+                    <span>Golfe de Monastir - Pollution plastique</span>
+                    <small>Ajoutez votre photo : images/golfe-monastir.jpg</small>
+                </div>
+                <div class="gallery-caption">
+                    <h4>Golfe de Monastir</h4>
+                    <p>Dechets plastiques et pneus dans les eaux du golfe</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-placeholder" style="background: linear-gradient(135deg, #7b241c, #cb4335);">
+                    <i class="fas fa-image"></i>
+                    <span>Inondations Moknine - Janvier 2026</span>
+                    <small>Ajoutez : images/inondations-moknine.jpg</small>
+                </div>
+                <div class="gallery-caption">
+                    <h4>Inondations Moknine</h4>
+                    <p>242 mm de pluie en 24h - Tempete HARRY</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-placeholder" style="background: linear-gradient(135deg, #1e8449, #27ae60);">
+                    <i class="fas fa-image"></i>
+                    <span>Poissons morts - Golfe</span>
+                    <small>Ajoutez : images/poissons-morts.jpg</small>
+                </div>
+                <div class="gallery-caption">
+                    <h4>Mort Massive de Poissons</h4>
+                    <p>Consequence directe de la pollution industrielle</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-placeholder" style="background: linear-gradient(135deg, #6c3483, #8e44ad);">
+                    <i class="fas fa-image"></i>
+                    <span>Decharge Agareb - Sfax</span>
+                    <small>Ajoutez : images/decharge-agareb.jpg</small>
+                </div>
+                <div class="gallery-caption">
+                    <h4>Decharge d'Agareb</h4>
+                    <p>Cancers x3-4 dans la zone - Crime environnemental</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-placeholder" style="background: linear-gradient(135deg, #935116, #d68910);">
+                    <i class="fas fa-image"></i>
+                    <span>Dechets dans les rues</span>
+                    <small>Ajoutez : images/dechets-rues.jpg</small>
+                </div>
+                <div class="gallery-caption">
+                    <h4>Rues de Monastir</h4>
+                    <p>Absence totale de tri selectif</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-placeholder" style="background: linear-gradient(135deg, #1a5276, #5dade2);">
+                    <i class="fas fa-image"></i>
+                    <span>Plage polluee</span>
+                    <small>Ajoutez : images/plage-polluee.jpg</small>
+                </div>
+                <div class="gallery-caption">
+                    <h4>Plages Defigurees</h4>
+                    <p>28 plages interdites a la baignade - ete 2025</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-note">
+            <i class="fas fa-camera"></i>
+            <p>Pour ajouter vos propres photos, placez-les dans le dossier <code>images/</code> et modifiez les balises dans le HTML.</p>
+        </div>
+    </div>
+</section>
+
+<!-- SORTIES SECTION -->
+<section class="section sorties-section" id="sorties">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Passez a l'Action</span>
+            <h2>Sorties Nettoyage des Plages</h2>
+            <p>Rejoignez-nous pour nettoyer les plages de la zone de Monastir. Chaque geste compte.</p>
+        </div>
+
+        <div class="sorties-layout">
+            <div class="sorties-upcoming">
+                <h3><i class="fas fa-calendar-alt"></i> Prochaines Sorties</h3>
+                <div class="sortie-card">
+                    <div class="sortie-date">
+                        <span class="day">01</span>
+                        <span class="month">MAR</span>
+                    </div>
+                    <div class="sortie-info">
+                        <h4>Plage de Monastir Centre</h4>
+                        <p><i class="fas fa-clock"></i> 09:00 - 12:00</p>
+                        <p><i class="fas fa-map-marker-alt"></i> RDV devant le Ribat</p>
+                    </div>
+                </div>
+                <div class="sortie-card">
+                    <div class="sortie-date">
+                        <span class="day">15</span>
+                        <span class="month">MAR</span>
+                    </div>
+                    <div class="sortie-info">
+                        <h4>Plage de Skanes</h4>
+                        <p><i class="fas fa-clock"></i> 08:30 - 11:30</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Parking Hotel Skanes</p>
+                    </div>
+                </div>
+                <div class="sortie-card">
+                    <div class="sortie-date">
+                        <span class="day">29</span>
+                        <span class="month">MAR</span>
+                    </div>
+                    <div class="sortie-info">
+                        <h4>Golfe de Monastir - Falaise</h4>
+                        <p><i class="fas fa-clock"></i> 09:00 - 13:00</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Port de peche</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sorties-form-wrapper">
+                <h3><i class="fas fa-hand-holding-heart"></i> Inscrivez-vous</h3>
+                <form id="sortieForm" class="form-styled">
+                    <div class="form-group">
+                        <label for="s_nom">Nom complet *</label>
+                        <input type="text" id="s_nom" name="nom" required placeholder="Votre nom et prenom">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="s_email">Email *</label>
+                            <input type="email" id="s_email" name="email" required placeholder="votre@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="s_tel">Telephone</label>
+                            <input type="tel" id="s_tel" name="telephone" placeholder="+216 XX XXX XXX">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="s_age">Tranche d'age *</label>
+                        <select id="s_age" name="age" required>
+                            <option value="">-- Choisir --</option>
+                            <option value="moins_18">Moins de 18 ans</option>
+                            <option value="18_25">18 - 25 ans</option>
+                            <option value="25_35">25 - 35 ans</option>
+                            <option value="35_50">35 - 50 ans</option>
+                            <option value="plus_50">Plus de 50 ans</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="s_sortie">Sortie souhaitee *</label>
+                        <select id="s_sortie" name="sortie" required>
+                            <option value="">-- Choisir une sortie --</option>
+                            <option value="01-03-2026 Monastir Centre">1 Mars - Plage Monastir Centre</option>
+                            <option value="15-03-2026 Skanes">15 Mars - Plage de Skanes</option>
+                            <option value="29-03-2026 Golfe">29 Mars - Golfe de Monastir</option>
+                            <option value="toutes">Toutes les sorties</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="s_nb">Nombre de participants</label>
+                        <input type="number" id="s_nb" name="nb_participants" min="1" max="10" value="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="s_message">Message (optionnel)</label>
+                        <textarea id="s_message" name="message" rows="3" placeholder="Avez-vous du materiel ? Des suggestions ?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-check-circle"></i> Confirmer mon Inscription
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PARTNERS SECTION -->
+<section class="section partners-section" id="partenaires">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Ensemble, plus forts</span>
+            <h2>Nos Partenaires Associatifs</h2>
+            <p>Nous collaborons avec les associations ecologiques les plus actives de la region de Monastir.</p>
+        </div>
+
+        <div class="partners-grid">
+            <div class="partner-card">
+                <div class="partner-logo" style="background: #1a936f;">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <h3>Catalyste Monastir</h3>
+                <p>Association locale de Monastir engagee dans la sensibilisation environnementale et l'action citoyenne. Organisatrice de campagnes de nettoyage et d'education ecologique.</p>
+                <div class="partner-tags">
+                    <span>Sensibilisation</span>
+                    <span>Nettoyage</span>
+                    <span>Education</span>
+                </div>
+            </div>
+
+            <div class="partner-card">
+                <div class="partner-logo" style="background: #0077b6;">
+                    <i class="fas fa-fish"></i>
+                </div>
+                <h3>Notre Grand Bleu</h3>
+                <p>Association tunisienne dediee a la protection du milieu marin et du littoral. Active dans la conservation marine, le plaidoyer et les actions de terrain en Mediterranee.</p>
+                <div class="partner-tags">
+                    <span>Protection marine</span>
+                    <span>Plaidoyer</span>
+                    <span>Conservation</span>
+                </div>
+            </div>
+
+            <div class="partner-card">
+                <div class="partner-logo" style="background: #38b000;">
+                    <i class="fas fa-globe-africa"></i>
+                </div>
+                <h3>Youth for Climate Tunisia</h3>
+                <p>Mouvement de jeunes tunisiens pour la justice climatique. Mobilisation citoyenne, marches pour le climat et plaidoyer aupres des decideurs politiques.</p>
+                <div class="partner-tags">
+                    <span>Climat</span>
+                    <span>Jeunesse</span>
+                    <span>Mobilisation</span>
+                </div>
+            </div>
+
+            <div class="partner-card">
+                <div class="partner-logo" style="background: #e63946;">
+                    <i class="fas fa-university"></i>
+                </div>
+                <h3>ESPRIM - Honoris</h3>
+                <p>Ecole Superieure Privee d'Ingenieurs de Monastir. Partenaire academique qui forme les ambassadeurs environnementaux de demain et soutient les projets etudiants.</p>
+                <div class="partner-tags">
+                    <span>Formation</span>
+                    <span>Innovation</span>
+                    <span>Recherche</span>
+                </div>
+            </div>
+
+            <div class="partner-card">
+                <div class="partner-logo" style="background: #f77f00;">
+                    <i class="fas fa-recycle"></i>
+                </div>
+                <h3>Association Tunisienne pour la Protection de la Nature (ATPN)</h3>
+                <p>ONG nationale de protection de la nature et de l'environnement. Presente a Monastir avec des programmes de recyclage et de sensibilisation communautaire.</p>
+                <div class="partner-tags">
+                    <span>Recyclage</span>
+                    <span>Nature</span>
+                    <span>Communaute</span>
+                </div>
+            </div>
+
+            <div class="partner-card">
+                <div class="partner-logo" style="background: #7209b7;">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <h3>Clean Up Tunisia</h3>
+                <p>Reseau citoyen de nettoyage participatif present dans plusieurs gouvernorats. Organisation de journees de nettoyage des plages, forets et espaces urbains.</p>
+                <div class="partner-tags">
+                    <span>Cleanup</span>
+                    <span>Citoyen</span>
+                    <span>National</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="partners-cta">
+            <p>Vous etes une association et souhaitez collaborer ?</p>
+            <a href="#contact" class="btn btn-primary">Contactez-nous</a>
+        </div>
+    </div>
+</section>
+
+<!-- AVIS / FEEDBACK SECTION -->
+<section class="section avis-section" id="avis">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Votre Voix Compte</span>
+            <h2>Donnez votre Avis</h2>
+            <p>Aidez-nous a mieux comprendre la situation et a orienter nos actions. Vos retours sont precieux.</p>
+        </div>
+
+        <div class="avis-layout">
+            <form id="avisForm" class="form-styled avis-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="a_nom">Nom complet *</label>
+                        <input type="text" id="a_nom" name="nom" required placeholder="Votre nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="a_email">Email *</label>
+                        <input type="email" id="a_email" name="email" required placeholder="votre@email.com">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="a_ville">Ville / Delegation *</label>
+                        <select id="a_ville" name="ville" required>
+                            <option value="">-- Choisir --</option>
+                            <option value="Monastir">Monastir</option>
+                            <option value="Moknine">Moknine</option>
+                            <option value="Sayada">Sayada</option>
+                            <option value="Lamta">Lamta</option>
+                            <option value="Ksibet el-Mediouni">Ksibet el-Mediouni</option>
+                            <option value="Teboulba">Teboulba</option>
+                            <option value="Ksar Hellal">Ksar Hellal</option>
+                            <option value="Jemmal">Jemmal</option>
+                            <option value="Sahline">Sahline</option>
+                            <option value="Bekalta">Bekalta</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="a_profil">Profil *</label>
+                        <select id="a_profil" name="profil" required>
+                            <option value="">-- Choisir --</option>
+                            <option value="Etudiant">Etudiant(e)</option>
+                            <option value="Travailleur">Travailleur(se)</option>
+                            <option value="Retraite">Retraite(e)</option>
+                            <option value="Chomeur">En recherche d'emploi</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Quel probleme vous preoccupe le plus ? *</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="probleme" value="Dechets" required>
+                            <span>Dechets & Pollution</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="probleme" value="Eau">
+                            <span>Eau polluee & Penurie</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="probleme" value="Energie">
+                            <span>Energie & Transport</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="probleme" value="Tous">
+                            <span>Les trois ensemble</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Comment evaluez-vous la proprete des plages de Monastir ? *</label>
+                    <div class="rating-group">
+                        <label class="rating-label"><input type="radio" name="note_proprete" value="1" required> <span>1</span></label>
+                        <label class="rating-label"><input type="radio" name="note_proprete" value="2"> <span>2</span></label>
+                        <label class="rating-label"><input type="radio" name="note_proprete" value="3"> <span>3</span></label>
+                        <label class="rating-label"><input type="radio" name="note_proprete" value="4"> <span>4</span></label>
+                        <label class="rating-label"><input type="radio" name="note_proprete" value="5"> <span>5</span></label>
+                    </div>
+                    <small class="form-hint">1 = Tres sale, 5 = Tres propre</small>
+                </div>
+
+                <div class="form-group">
+                    <label>Seriez-vous pret(e) a participer au tri selectif ? *</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="tri" value="Oui" required>
+                            <span>Oui, absolument</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="tri" value="Peut-etre">
+                            <span>Peut-etre, si c'est facile</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="tri" value="Non">
+                            <span>Non, pas interesse(e)</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="a_suggestion">Vos suggestions et idees *</label>
+                    <textarea id="a_suggestion" name="suggestion" rows="4" required placeholder="Partagez vos idees pour ameliorer la situation..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-full">
+                    <i class="fas fa-paper-plane"></i> Envoyer mon Avis
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- QR CODE SECTION -->
+<section class="section qr-section" id="contact">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Partagez</span>
+            <h2>Scannez & Partagez</h2>
+            <p>Partagez ce site avec vos amis et votre famille. Chaque partage amplifie le mouvement.</p>
+        </div>
+        <div class="qr-container">
+            <div class="qr-code" id="qrCode">
+                <!-- QR Code will be generated here -->
+            </div>
+            <p class="qr-instruction">Scannez ce QR code pour acceder au site</p>
+            <div class="qr-input-group">
+                <label for="siteUrl">URL du site (GitHub Pages) :</label>
+                <input type="text" id="siteUrl" value="https://VOTRE-USERNAME.github.io/monastir-propre/" placeholder="Entrez l'URL de votre site">
+                <button class="btn btn-primary" onclick="generateQR()">Generer QR Code</button>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <h3>Contact</h3>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>monastir.propre@esprim.tn</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-hashtag"></i>
+                    <span>#MonastirPropre #ClimateActionTN #ODD13</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>ESPRIM, Monastir, Tunisie</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CSV DOWNLOAD -->
+<section class="section csv-section">
+    <div class="container">
+        <div class="csv-box">
+            <h3><i class="fas fa-file-csv"></i> Telecharger les Donnees</h3>
+            <p>Exportez les inscriptions et avis collectes au format CSV.</p>
+            <div class="csv-buttons">
+                <button class="btn btn-primary" onclick="downloadCSV('sorties')">
+                    <i class="fas fa-download"></i> CSV Inscriptions Sorties
+                    <span class="badge" id="countSorties">0</span>
+                </button>
+                <button class="btn btn-outline" onclick="downloadCSV('avis')">
+                    <i class="fas fa-download"></i> CSV Avis Citoyens
+                    <span class="badge" id="countAvis">0</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3><i class="fas fa-leaf"></i> Monastir Propre</h3>
+                <p>Initiative citoyenne des etudiants ESPRIM Monastir - Honoris United Universities</p>
+                <p class="footer-team">Equipe : Hassen Ben Salah, Amal Belkacem, Adam Dimassi, Nesrine Miled</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#crise">La Crise</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#sorties">Sorties</a></li>
+                    <li><a href="#partenaires">Partenaires</a></li>
+                    <li><a href="#avis">Avis</a></li>
+                </ul>
+            </div>
+            <div class="footer-partners">
+                <h4>Partenaires</h4>
+                <ul>
+                    <li>Catalyste Monastir</li>
+                    <li>Notre Grand Bleu</li>
+                    <li>Youth for Climate Tunisia</li>
+                    <li>ESPRIM - Honoris</li>
+                    <li>ATPN</li>
+                    <li>Clean Up Tunisia</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>"Le changement commence par nous, ici, maintenant."</p>
+            <p>Mini-Projet Environnemental - Fevrier 2026</p>
+        </div>
+    </div>
+</footer>
+
+<!-- SUCCESS MODAL -->
+<div class="modal-overlay" id="successModal">
+    <div class="modal">
+        <div class="modal-icon"><i class="fas fa-check-circle"></i></div>
+        <h3 id="modalTitle">Merci !</h3>
+        <p id="modalMessage">Votre inscription a ete enregistree avec succes.</p>
+        <button class="btn btn-primary" onclick="closeModal()">Fermer</button>
+    </div>
+</div>
+
+<!-- QR Code Library -->
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
